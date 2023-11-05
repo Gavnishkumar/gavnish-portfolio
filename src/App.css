@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+/* my code is started from here */
+.Home_title_Heading:hover{
+    transition:  ease-in
+}
+.navlinks{
+  padding: 10px;
+}
+.navlinks:hover{
+    background: rgb(189, 189, 189);
+    font-weight: bolder;
+}
+.view-more-image:hover{
+  opacity:0.6;
+  cursor: pointer;
+}
