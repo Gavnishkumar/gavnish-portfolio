@@ -8,8 +8,6 @@ import { Link } from 'react-router-dom';
 import bg from '../image/bg2.jpg';
 const Skill = () => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
-
-  var CanvasJS = CanvasJSReact.CanvasJS;
   var CanvasJSChart = CanvasJSReact.CanvasJSChart;
 
   const MyskillsColumn = {
@@ -112,7 +110,7 @@ const Skill = () => {
     <div id="chartContainer" style={{ color:'white' ,'background':`url(${bg})`,
     'backgroundSize':'cover',
     'backgroundRepeat':'repeat-y'}}>
-      <div style={{width:'100%',margin:'auto','margin':'20px auto'}}>
+      <div style={{width:'100%','margin':'20px auto'}}>
         <h2>Skills: </h2>
         <i><b>Data Structure and Algorithms(DSA), ReactJs, NodeJS, MongoDB, ExpressJs, problem solving, Competative programing, Communication Skills,C++, Python, JAVA</b></i>
       </div>
@@ -126,7 +124,7 @@ const Skill = () => {
       <Card.Body>
         <Card.Title>Leetcode</Card.Title>
         <Card.Text>
-          Solved more than 420 problems till september 2023 and solving continue..
+        Continuing to solve problems after surpassing <b>515 by December 2023</b>, demonstrating a commitment to ongoing growth and skill enhancement.
         </Card.Text>
         <Link to="https://leetcode.com/gavnish_kumar/" target='_blank'><Button variant="primary">Go To Profile</Button></Link>
       </Card.Body>
@@ -138,7 +136,7 @@ const Skill = () => {
       <Card.Body>
         <Card.Title>Geeksforgeeks</Card.Title>
         <Card.Text>
-        Solved more than 440 problems till september 2023 and solving continue..
+        Continuing to solve problems after surpassing <b>450 by December 2023</b>, demonstrating a commitment to ongoing growth and skill enhancement.
         </Card.Text>
         <Link to="https://auth.geeksforgeeks.org/user/gk991789/practice" target='_blank'><Button variant="primary">Go To Profile</Button></Link>
       </Card.Body>

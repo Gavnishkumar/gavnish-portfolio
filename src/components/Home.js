@@ -3,6 +3,10 @@ import bg from '../image/bg2.jpg'
 import {  Img } from '@chakra-ui/react';
 import { TypeAnimation } from 'react-type-animation';
 import { Button } from 'react-bootstrap';
+import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
+import intercertificate from '../image/interncertificate.png';
+import resume from '../image/resume.png';
 const Home = () => {
   
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -57,12 +61,34 @@ const Home = () => {
         <b> Intern @ Sasefied as full stack developer</b></i>
         <i><b>Indian institute of information technology, Sonepat (IIITS)</b></i>
         <i><bolder>B-Tech,pre-final year student</bolder></i>
-        <a href='https://drive.google.com/file/d/1c7ux0-2C7A0mlC_NuECHTWVKaOxExNKy/view?usp=sharing'>
-         <Button style={{'marginTop':'10px'}}>MyResume</Button>
-         </a>
        </div>
        </div>
-      
+      <div style={{display:'flex',padding:'1.5em',justifyContent:'center',alignItems:'center'}}>
+      <Card style={{ width: '18rem',margin:'20px'}}>
+                    <Card.Img variant="top" src={intercertificate} />
+                    <Card.Body>
+                        <Card.Title>Intern Certificate</Card.Title>
+                        <Card.Text>
+                            <p>Here's my Internship Certificate from Sasefied! It signifies my successful completion of a dynamic internship as a MERN Stack developer. Click below to discover more about my journey, showcasing dedication and growth throughout this valuable experience.
+                            </p>
+                        </Card.Text>
+                        <Link to="https://drive.google.com/file/d/1ojFNwifMgjwzp9-8YNPsyZSXK-ybXtr-/view?usp=drive_link" target='_blank'><Button variant="primary" style={{marginTop:'1em',width:'100%'}}>Access my Certificate</Button></Link>
+                        <Link to="https://wa.me/919368985917" target='_blank'><Button variant="secondary" style={{marginTop:'1em',width:'100%'}}>write a Review</Button></Link>
+                    </Card.Body>
+                </Card>
+      <Card style={{ width: '18rem',margin:'20px'}}>
+                    <Card.Img variant="top" src={resume} />
+                    <Card.Body>
+                        <Card.Title>My Resume</Card.Title>
+                        <Card.Text>
+                            <p>My resume offers a detailed overview of my accomplishments, expertise, and proficiencies. Explore the complete scope of my experiences to gain deeper insight into my qualifications and capabilities. Your interest in reviewing my resume will greatly appreciated.
+                            </p>
+                        </Card.Text>
+                        <Link to="https://drive.google.com/file/d/1fdbNJyMiUvPCWk_yAmau8VNlOta7JbxF/view?usp=drive_link" target='_blank'><Button variant="primary" style={{marginTop:'1em',width:'100%'}}>Access my resume</Button></Link>
+                        <Link to="https://wa.me/919368985917" target='_blank'><Button variant="secondary" style={{marginTop:'1em',width:'100%'}}>write a Review</Button></Link>
+                    </Card.Body>
+                </Card>
+      </div>
         <Button onClick={handleAboutMe} style={{'marginTop':'20px','Width':'10%'}}>{aboutme ? 'less Show' : 'More about me'}</Button>
       
         { aboutme && <div id="detailbox" style={{
