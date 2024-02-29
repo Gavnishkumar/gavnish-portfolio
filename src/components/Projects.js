@@ -45,7 +45,7 @@ const Projects = () => {
                             </p>
                         </Card.Text>
                         <Link to="https://github.com/Gavnishkumar/G-chat" target='_blank'><Button variant="primary" style={{margin:'1em'}}>Repository</Button></Link>
-                        <Link to="https://www.youtube.com/embed/2kN__RshyLw?si=EH5JN-fiA48bbEoB" target='_blank'><Button variant="secondary" style={{margin:'1em'}}>Project</Button></Link>
+                        <Link to="https://g-chat-client.onrender.com/" target='_blank'><Button variant="secondary" style={{margin:'1em'}}>Project</Button></Link>
                     </Card.Body>
                 </Card>
                 <Card style={{ width: '18rem',margin:'20px'}}>
