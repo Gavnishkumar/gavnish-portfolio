@@ -80,7 +80,7 @@ const Projects = () => {
                             </p>
                         </Card.Text>
                         <Link to="https://github.com/Gavnishkumar/appeptite-suppressant" target='_blank'><Button variant="primary" style={{margin:'1em'}}>Repository</Button></Link>
-                        <Link to="https://www.youtube.com/embed/p0mz1IwyCM8?si=a1wo5oyCboazrRcu" target='_blank'><Button variant="secondary" style={{margin:'1em'}}>Project</Button></Link>
+                        <Link to="https://appeptite-suppressant.onrender.com/" target='_blank'><Button variant="secondary" style={{margin:'1em'}}>Project</Button></Link>
                     </Card.Body>
                 </Card>
                
