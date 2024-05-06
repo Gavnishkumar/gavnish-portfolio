@@ -124,7 +124,7 @@ const Skill = () => {
       <Card.Body>
         <Card.Title>Leetcode</Card.Title>
         <Card.Text>
-        Continuing to solve problems after surpassing <b>515 by December 2023</b>, demonstrating a commitment to ongoing growth and skill enhancement.
+        Continuing to solve problems after surpassing <b>680 by April 2024</b>, demonstrating a commitment to ongoing growth and skill enhancement.
         </Card.Text>
         <Link to="https://leetcode.com/gavnish_kumar/" target='_blank'><Button variant="primary">Go To Profile</Button></Link>
       </Card.Body>

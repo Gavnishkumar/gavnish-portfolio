@@ -58,26 +58,26 @@ const Home = () => {
         <Img src={'https://ik.imagekit.io/gavnish/test-upload_CiFZbPc0-.png?updatedAt=1691840962857'} name="Gavnish kumar" style={{'margin': 'auto','marginTop':'40px','height':'20rem','width': '20rem','borderRadius':'200px'}}></Img>
         <h2 style={{'color': 'white'}}>Gavnish Kumar</h2>
         <i style={{'color': 'white'}}><b>Programmer | Developer | Creater |</b><br/>
-        <b> Intern @ Sasefied as full stack developer</b></i>
+        <b> Ex-Intern @ Sasefied as full stack developer</b></i>
         <i><b>Indian institute of information technology, Sonepat (IIITS)</b></i>
         <i><bolder>B-Tech,pre-final year student</bolder></i>
        </div>
        </div>
       <div style={{display:'flex',padding:'1.5em',justifyContent:'center',alignItems:'center'}}>
-      <Card style={{ width: '18rem',margin:'20px'}}>
-                    <Card.Img variant="top" src={intercertificate} />
+      <Card style={{ width: '21rem',margin:'20px'}}>
+                    <Card.Img variant="top" style={{height:"300px"}} src={intercertificate} />
                     <Card.Body>
                         <Card.Title>Intern Certificate</Card.Title>
                         <Card.Text>
                             <p>Here's my Internship Certificate from Sasefied! It signifies my successful completion of a dynamic internship as a MERN Stack developer. Click below to discover more about my journey, showcasing dedication and growth throughout this valuable experience.
                             </p>
                         </Card.Text>
-                        <Link to="https://drive.google.com/file/d/1ojFNwifMgjwzp9-8YNPsyZSXK-ybXtr-/view?usp=drive_link" target='_blank'><Button variant="primary" style={{marginTop:'1em',width:'100%'}}>Access my Certificate</Button></Link>
+                        <Link to="https://drive.google.com/file/d/1PB0tAmVSkF_3PrNtHzxqmcMSm2nAjnnO/view?usp=drive_link" target='_blank'><Button variant="primary" style={{marginTop:'1em',width:'100%'}}>Access my Certificate</Button></Link>
                         <Link to="https://wa.me/919368985917" target='_blank'><Button variant="secondary" style={{marginTop:'1em',width:'100%'}}>write a Review</Button></Link>
                     </Card.Body>
                 </Card>
-      <Card style={{ width: '18rem',margin:'20px'}}>
-                    <Card.Img variant="top" src={resume} />
+      <Card style={{ width: '21rem',margin:'20px'}}>
+                    <Card.Img variant="top" style={{height:"300px"}} src={resume} />
                     <Card.Body>
                         <Card.Title>My Resume</Card.Title>
                         <Card.Text>
